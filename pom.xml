@@ -11,6 +11,8 @@
 		<module>dbb-provider</module>
 		<module>dbb-consumer</module>
 		<module>dbb-common</module>
+		<module>boot-dbb-provider</module>
+		<module>boot-dbb-consumer</module>
 	</modules>
 
 	<build>

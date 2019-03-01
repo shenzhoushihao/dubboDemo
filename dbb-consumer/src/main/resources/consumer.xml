@@ -29,4 +29,6 @@
 		timeout="5000" retries="3" version="*">
 		<dubbo:method name="getUserInfo" timeout="5000"></dubbo:method>
 	</dubbo:reference>
+
+	<dubbo:monitor protocol="registry"></dubbo:monitor>
 </beans>
