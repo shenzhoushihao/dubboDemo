@@ -11,7 +11,7 @@ import com.great.dubbo.consumer.service.IHomeService;
 @Service
 public class HomeService implements IHomeService {
 
-	@Reference(version = "1.0.0", url = "dubbo://127.0.0.1:20882")
+	@Reference(version = "1.0.0")
 	private IUserService userService;
 
 	@Override
